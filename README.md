@@ -18,7 +18,7 @@ Without TLS, sensitive telemetry data and credentials are transmitted in plainte
 By implementing mTLS on port **8883** and disabling anonymous access, the payload is securely encapsulated within TLSv1.2 Application Data, ensuring confidentiality and integrity.
 ![Encrypted Traffic](images/wireshark_encrypted.png)
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Broker**: Eclipse Mosquitto
 * **Infrastructure**: Docker & Docker Compose
 * **Security**: OpenSSL (X.509 Certificates), TLSv1.2
